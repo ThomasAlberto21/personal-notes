@@ -55,9 +55,9 @@ class NoteApp extends React.Component {
     });
   }
 
-  onSearchHandler(search) {
+  onSearchHandler({ searchData }) {
     this.setState(() => {
-      return { searchData: search };
+      return { searchData: searchData };
     });
   }
 
