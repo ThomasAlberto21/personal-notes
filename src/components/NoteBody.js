@@ -10,7 +10,6 @@ function NoteBody({
   onArchive,
   onActive,
 }) {
-    
   const activeNotes = notes.filter(
     (note) =>
       note.archived === false &&
